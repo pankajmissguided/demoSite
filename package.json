@@ -1,0 +1,22 @@
+{
+  "name": "demoweb",
+  "version": "1.0.0",
+  "description": "Regression Pack",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run" : "cypress run",
+    "cy:run-dashboard": "cypress run --record --key 06f7032b-7ecf-4098-bc17-364754400c5f"
+  },
+  "keywords": [
+    "Cypress",
+    "Automation",
+    "Regression"
+  ],
+  "author": "pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.10.0",
+    "prettier": "^2.0.5"
+  }
+}
